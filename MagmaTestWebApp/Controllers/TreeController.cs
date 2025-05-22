@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using MagmaTestWebApp.Models;
 using MagmaTestWebApp.Services;
+using MagmaTestWebApp.Enums;
 
 namespace MagmaTestWebApp.Controllers
 {
@@ -87,9 +88,9 @@ namespace MagmaTestWebApp.Controllers
                 return BadRequest("Параметры 'description' и 'searchMode' обязательны.");
             }
 
-            var searchModeLower = searchMode.ToLower();
-            if (searchModeLower != "substring" && searchModeLower != "exact")
+            if (!Enum.TryParse<SearchMode>(searchMode, true, out var parsedMode))
             {
+                // Не выводим допустимые значения через Enum.GetNames, чтобы при добавлении новых значений явно обновлять switch
                 return BadRequest("Некорректное значение для searchMode. Допустимые значения: substring, exact.");
             }
 
@@ -100,14 +101,12 @@ namespace MagmaTestWebApp.Controllers
             {
                 if (node.Description == null) return false;
 
-                if (searchModeLower == "exact")
+                return parsedMode switch
                 {
-                    return node.Description.Equals(description, StringComparison.OrdinalIgnoreCase);
-                }
-                else // substring
-                {
-                    return node.Description.Contains(description, StringComparison.OrdinalIgnoreCase);
-                }
+                    SearchMode.Exact => node.Description.Equals(description, StringComparison.OrdinalIgnoreCase),
+                    SearchMode.Substring => node.Description.Contains(description, StringComparison.OrdinalIgnoreCase),
+                    _ => false // Отработка default случая лишней не будет
+                };
             }).ToList();
 
             return Ok(filteredNodes);
@@ -170,8 +169,7 @@ namespace MagmaTestWebApp.Controllers
             }
         }
 
-        // Вспомогательный метод для проверки handle
-        private bool IsValidHandle(string handle)
+        private static bool IsValidHandle(string handle)
         {
             return !string.IsNullOrEmpty(handle) && handle.StartsWith(HandlePrefix);
         }

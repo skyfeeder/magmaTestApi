@@ -12,6 +12,8 @@ namespace MagmaTestWebApp.Controllers
     {
         private readonly DataService _dataService;
 
+        private const string HandlePrefix = "TH";
+
         public TreeController(DataService dataService)
         {
             _dataService = dataService;
@@ -33,9 +35,9 @@ namespace MagmaTestWebApp.Controllers
         [HttpGet("{handle}/descendants")]
         public ActionResult<IEnumerable<TreeItemViewModel>> GetDescendants(string handle)
         {
-            if (string.IsNullOrEmpty(handle) || !handle.StartsWith("TH")) // TODO: Мб TH вынести в константу??
+            if (!IsValidHandle(handle))
             {
-                return BadRequest("Некорректный формат Handle. Handle должен начинаться с 'TH'.");
+                return BadRequest($"Некорректный формат Handle. Handle должен начинаться с '{HandlePrefix}'.");
             }
 
             var node = FindNodeByHandle(_dataService.Tree, handle);
@@ -57,9 +59,9 @@ namespace MagmaTestWebApp.Controllers
         [HttpGet("{handle}/children")]
         public ActionResult<IEnumerable<TreeItemViewModel>> GetFirstLevelChildren(string handle)
         {
-            if (string.IsNullOrEmpty(handle) || !handle.StartsWith("TH"))
+            if (!IsValidHandle(handle))
             {
-                return BadRequest("Некорректный формат Handle. Handle должен начинаться с 'TH'.");
+                return BadRequest($"Некорректный формат Handle. Handle должен начинаться с '{HandlePrefix}'.");
             }
 
             var node = FindNodeByHandle(_dataService.Tree, handle);
@@ -123,7 +125,7 @@ namespace MagmaTestWebApp.Controllers
         }
 
         // Вспомогательный метод для поиска узла
-        private TreeItemViewModel? FindNodeByHandle(List<TreeItemViewModel> nodes, string handle)
+        private static TreeItemViewModel? FindNodeByHandle(List<TreeItemViewModel> nodes, string handle)
         {
             foreach (var node in nodes)
             {
@@ -144,7 +146,7 @@ namespace MagmaTestWebApp.Controllers
         }
 
         // Вспомогательный метод для сбора всех потомков (descendants)
-        private void CollectDescendants(TreeItemViewModel node, List<TreeItemViewModel> descendants)
+        private static void CollectDescendants(TreeItemViewModel node, List<TreeItemViewModel> descendants)
         {
             if (node.Children == null) return;
 
@@ -156,7 +158,7 @@ namespace MagmaTestWebApp.Controllers
         }
 
         // Вспомогательный метод для разворачивания дерева в список
-        private void CollectAllNodes(List<TreeItemViewModel> nodes, List<TreeItemViewModel> flatList)
+        private static void CollectAllNodes(List<TreeItemViewModel> nodes, List<TreeItemViewModel> flatList)
         {
             foreach (var node in nodes)
             {
@@ -166,6 +168,12 @@ namespace MagmaTestWebApp.Controllers
                     CollectAllNodes(node.Children, flatList);
                 }
             }
+        }
+
+        // Вспомогательный метод для проверки handle
+        private bool IsValidHandle(string handle)
+        {
+            return !string.IsNullOrEmpty(handle) && handle.StartsWith(HandlePrefix);
         }
     }
 }

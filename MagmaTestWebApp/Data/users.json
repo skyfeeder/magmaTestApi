@@ -1,0 +1,16 @@
+[  
+	{
+		"$id": "11",
+		"$type": "Tdms.Nano360.ViewModels.Members.UserViewModel, Tdms.Nano360",
+		"Key": "THC20B15980B150000000000",
+		"Description": "ADMIN",
+		"FirstName": "",
+		"MiddleName": "",
+		"LastName": "",
+		"Mail": "admin@mcad.ru",
+		"Phone": "",
+		"IsDisabled": false,
+		"Id": "1003",
+		"Profession": ""
+	}
+]

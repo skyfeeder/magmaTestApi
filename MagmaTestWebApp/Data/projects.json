@@ -1,0 +1,986 @@
+[
+  {
+    "$id": "1",
+    "$type": "Tdms.Nano360.WebApi.ViewModels.ProjectViewModel, Tdms.Nano360",
+    "Customer": "ПАО Сбербанк",
+    "Readiness": 0.0,
+    "MaximumSize": 2147483648.0,
+    "Size": 39484391.0,
+    "ExecuteBefore": "2023-12-19T08:10:33+00:00",
+    "UserRole": {
+      "$id": "2",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.RoleViewModel, Tdms.Nano360",
+      "Member": {
+        "$id": "3",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Editor": {
+        "$id": "4",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": true,
+        "HasWorkgroupRole": true,
+        "Groups": [
+          {
+            "$id": "5",
+            "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+            "Description": "Все",
+            "Handle": "TH650C034D0C150000000000",
+            "SysId": "{17A3FBFE-E688-4368-B84E-0AB0FA11D207}",
+            "Type": "Object"
+          }
+        ]
+      },
+      "Admin": {
+        "$id": "6",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "OrganizationAdmin": {
+        "$id": "7",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": true,
+        "HasWorkgroupRole": true,
+        "Groups": [
+          {
+            "$id": "8",
+            "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+            "Description": "Администраторы организации",
+            "Handle": "TH7509035909190000000000",
+            "SysId": "{57D9E945-FC34-4F6E-B55E-7DA9CB5E8963}",
+            "Type": "Object"
+          }
+        ]
+      },
+      "SimpleRole": "ROLE_ORGANIZATIONADMIN",
+      "User": {
+        "$id": "9",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+        "Description": "ADMIN",
+        "Handle": "TH3D08151308150000000000",
+        "SysId": "USER_C92441CF_1AB7_4758_9C30_0713A2B275B6",
+        "Type": "User"
+      }
+    },
+    "Status": {
+      "$id": "10",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "В работе",
+      "Handle": "THBD9B19A49B000000000000",
+      "SysId": "INWORK_STATUS_DEF",
+      "Type": "Status"
+    },
+    "DiskLetter": "O",
+    "CreateTime": "2023-12-19T08:11:18+00:00",
+    "Private": false,
+    "ModifyUser": {
+      "$id": "11",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "ADMIN",
+      "Handle": "TH3D08151308150000000000",
+      "SysId": "USER_C92441CF_1AB7_4758_9C30_0713A2B275B6",
+      "Type": "User"
+    },
+    "ModifyTime": "2025-03-07T21:26:45.418+00:00",
+    "Locked": false,
+    "Deleted": false,
+    "LockType": 0,
+    "ObjectType": "PROJECT_DEF",
+    "Description": "Установка электрообессоливания",
+    "GUID": "{9CA752A5-CE7F-44CA-9357-FF4B54D26AAC}",
+    "Handle": "THBF0D03A70D150000000000",
+    "IconId": 1733
+  },
+  {
+    "$id": "12",
+    "$type": "Tdms.Nano360.WebApi.ViewModels.ProjectViewModel, Tdms.Nano360",
+    "Customer": "IIII",
+    "Readiness": 0.0,
+    "MaximumSize": 2147483648.0,
+    "Size": 174774507.0,
+    "ExecuteBefore": "2024-01-01T08:22:32+00:00",
+    "UserRole": {
+      "$id": "13",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.RoleViewModel, Tdms.Nano360",
+      "Member": {
+        "$id": "14",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Editor": {
+        "$id": "15",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Admin": {
+        "$id": "16",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "OrganizationAdmin": {
+        "$id": "17",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": true,
+        "HasWorkgroupRole": true,
+        "Groups": [
+          {
+            "$id": "18",
+            "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+            "Description": "Администраторы организации",
+            "Handle": "TH7509035909190000000000",
+            "SysId": "{57D9E945-FC34-4F6E-B55E-7DA9CB5E8963}",
+            "Type": "Object"
+          }
+        ]
+      },
+      "SimpleRole": "ROLE_ORGANIZATIONADMIN",
+      "User": {
+        "$id": "19",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+        "Description": "ADMIN",
+        "Handle": "TH3D08151308150000000000",
+        "SysId": "USER_C92441CF_1AB7_4758_9C30_0713A2B275B6",
+        "Type": "User"
+      }
+    },
+    "Status": {
+      "$id": "20",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "В работе",
+      "Handle": "THBD9B19A49B000000000000",
+      "SysId": "INWORK_STATUS_DEF",
+      "Type": "Status"
+    },
+    "DiskLetter": "Z",
+    "CreateTime": "2023-12-19T08:23:02+00:00",
+    "Private": false,
+    "ModifyUser": {
+      "$id": "21",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "SYSADMIN",
+      "Handle": "TH8907155F07150000000000",
+      "SysId": "USER_1782D130_4028_4D7F_9D9A_5748086CD7CC",
+      "Type": "User"
+    },
+    "ModifyTime": "2025-02-28T09:01:05.461+00:00",
+    "Locked": false,
+    "Deleted": false,
+    "LockType": 0,
+    "ObjectType": "PROJECT_DEF",
+    "Description": "Test 19.12",
+    "GUID": "{EA629032-42C6-48F6-B511-E7102D07AA21}",
+    "Handle": "THA60E038E0E150000000000",
+    "IconId": 1733
+  },
+  {
+    "$id": "22",
+    "$type": "Tdms.Nano360.WebApi.ViewModels.ProjectViewModel, Tdms.Nano360",
+    "Customer": "IIII",
+    "Readiness": 0.0,
+    "MaximumSize": 1073741824.0,
+    "Size": 9536785.0,
+    "ExecuteBefore": "2024-01-01T08:22:32+00:00",
+    "UserRole": {
+      "$id": "23",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.RoleViewModel, Tdms.Nano360",
+      "Member": {
+        "$id": "24",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": true,
+        "HasWorkgroupRole": true,
+        "Groups": [
+          {
+            "$id": "25",
+            "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+            "Description": "Здесь все Никита, Стас, Гена, Турбо и Дюша Метёлкин...",
+            "Handle": "THBB0F03A30F150000000000",
+            "SysId": "{089BE5F3-A81D-46AC-9D37-95A0CCD48D4C}",
+            "Type": "Object"
+          }
+        ]
+      },
+      "Editor": {
+        "$id": "26",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Admin": {
+        "$id": "27",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "OrganizationAdmin": {
+        "$id": "28",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": true,
+        "HasWorkgroupRole": true,
+        "Groups": [
+          {
+            "$id": "29",
+            "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+            "Description": "Администраторы организации",
+            "Handle": "TH7509035909190000000000",
+            "SysId": "{57D9E945-FC34-4F6E-B55E-7DA9CB5E8963}",
+            "Type": "Object"
+          }
+        ]
+      },
+      "SimpleRole": "ROLE_ORGANIZATIONADMIN",
+      "User": {
+        "$id": "30",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+        "Description": "ADMIN",
+        "Handle": "TH3D08151308150000000000",
+        "SysId": "USER_C92441CF_1AB7_4758_9C30_0713A2B275B6",
+        "Type": "User"
+      }
+    },
+    "Status": {
+      "$id": "31",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "Архивный",
+      "Handle": "TH8373195F730B0000000000",
+      "SysId": "ARCHIVE_STATUS_DEF",
+      "Type": "Status"
+    },
+    "DiskLetter": "Z",
+    "CreateTime": "2023-12-19T08:40:54+00:00",
+    "Private": false,
+    "ModifyUser": {
+      "$id": "32",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "SYSADMIN",
+      "Handle": "TH8907155F07150000000000",
+      "SysId": "USER_1782D130_4028_4D7F_9D9A_5748086CD7CC",
+      "Type": "User"
+    },
+    "ModifyTime": "2023-12-19T08:41:02+00:00",
+    "Locked": false,
+    "Deleted": false,
+    "LockType": 0,
+    "ObjectType": "PROJECT_DEF",
+    "Description": "Копия проекта (Test 19.12)",
+    "GUID": "{2EAF916D-BB85-4D20-9850-BAB245532A7A}",
+    "Handle": "THAE10039610150000000000",
+    "IconId": 1733
+  },
+  {
+    "$id": "33",
+    "$type": "Tdms.Nano360.WebApi.ViewModels.ProjectViewModel, Tdms.Nano360",
+    "Customer": "ААА",
+    "Readiness": 0.0,
+    "MaximumSize": 1073741824.0,
+    "Size": 201504762.0,
+    "ExecuteBefore": "2024-01-22T06:26:47+00:00",
+    "UserRole": {
+      "$id": "34",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.RoleViewModel, Tdms.Nano360",
+      "Member": {
+        "$id": "35",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": true,
+        "HasWorkgroupRole": true,
+        "Groups": [
+          {
+            "$id": "36",
+            "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+            "Description": "Здесь все Никита, Стас, Гена, Турбо и Дюша Метёлкин...",
+            "Handle": "THBB0F03A30F150000000000",
+            "SysId": "{089BE5F3-A81D-46AC-9D37-95A0CCD48D4C}",
+            "Type": "Object"
+          }
+        ]
+      },
+      "Editor": {
+        "$id": "37",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": true,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Admin": {
+        "$id": "38",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "OrganizationAdmin": {
+        "$id": "39",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": true,
+        "HasWorkgroupRole": true,
+        "Groups": [
+          {
+            "$id": "40",
+            "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+            "Description": "Администраторы организации",
+            "Handle": "TH7509035909190000000000",
+            "SysId": "{57D9E945-FC34-4F6E-B55E-7DA9CB5E8963}",
+            "Type": "Object"
+          }
+        ]
+      },
+      "SimpleRole": "ROLE_ORGANIZATIONADMIN",
+      "User": {
+        "$id": "41",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+        "Description": "ADMIN",
+        "Handle": "TH3D08151308150000000000",
+        "SysId": "USER_C92441CF_1AB7_4758_9C30_0713A2B275B6",
+        "Type": "User"
+      }
+    },
+    "Status": {
+      "$id": "42",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "Архивный",
+      "Handle": "TH8373195F730B0000000000",
+      "SysId": "ARCHIVE_STATUS_DEF",
+      "Type": "Status"
+    },
+    "DiskLetter": "Y",
+    "CreateTime": "2024-01-22T06:27:08+00:00",
+    "Private": false,
+    "ModifyUser": {
+      "$id": "43",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "SYSADMIN",
+      "Handle": "THF10815C708150000000000",
+      "SysId": "USER_B089745E_0E52_4C61_AA58_C65CCCE628B3",
+      "Type": "User"
+    },
+    "ModifyTime": "2024-05-07T15:18:57.098+00:00",
+    "Locked": false,
+    "Deleted": false,
+    "LockType": 0,
+    "ObjectType": "PROJECT_DEF",
+    "Description": "Январь 22.01",
+    "GUID": "{404471DD-AF21-4368-BA31-435B0AD5310D}",
+    "Handle": "TH043803EC37150000000000",
+    "IconId": 1733
+  },
+  {
+    "$id": "44",
+    "$type": "Tdms.Nano360.WebApi.ViewModels.ProjectViewModel, Tdms.Nano360",
+    "Customer": "",
+    "Readiness": 0.0,
+    "MaximumSize": 5368709120.0,
+    "Size": 616910340.0,
+    "ExecuteBefore": "2024-03-15T09:20:06+00:00",
+    "UserRole": {
+      "$id": "45",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.RoleViewModel, Tdms.Nano360",
+      "Member": {
+        "$id": "46",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Editor": {
+        "$id": "47",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Admin": {
+        "$id": "48",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "OrganizationAdmin": {
+        "$id": "49",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": true,
+        "HasWorkgroupRole": true,
+        "Groups": [
+          {
+            "$id": "50",
+            "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+            "Description": "Администраторы организации",
+            "Handle": "TH7509035909190000000000",
+            "SysId": "{57D9E945-FC34-4F6E-B55E-7DA9CB5E8963}",
+            "Type": "Object"
+          }
+        ]
+      },
+      "SimpleRole": "ROLE_ORGANIZATIONADMIN",
+      "User": {
+        "$id": "51",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+        "Description": "ADMIN",
+        "Handle": "TH3D08151308150000000000",
+        "SysId": "USER_C92441CF_1AB7_4758_9C30_0713A2B275B6",
+        "Type": "User"
+      }
+    },
+    "Status": {
+      "$id": "52",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "В работе",
+      "Handle": "THBD9B19A49B000000000000",
+      "SysId": "INWORK_STATUS_DEF",
+      "Type": "Status"
+    },
+    "DiskLetter": "S",
+    "CreateTime": "2024-03-15T09:20:23.668+00:00",
+    "Private": false,
+    "ModifyUser": {
+      "$id": "53",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "tester",
+      "Handle": "TH27ED15FCEC160000000000",
+      "SysId": "USER_19AD7643_94B3_4599_8166_19393DEF6BA3",
+      "Type": "User"
+    },
+    "ModifyTime": "2025-04-24T10:24:25.458+00:00",
+    "Locked": false,
+    "Deleted": false,
+    "LockType": 0,
+    "ObjectType": "PROJECT_DEF",
+    "Description": "Сложносочиненные проверки",
+    "GUID": "{D93A530F-E04A-4E06-9514-C6FC90358120}",
+    "Handle": "THD57903BD79150000000000",
+    "IconId": 1733
+  },
+  {
+    "$id": "54",
+    "$type": "Tdms.Nano360.WebApi.ViewModels.ProjectViewModel, Tdms.Nano360",
+    "Customer": "",
+    "Readiness": 0.0,
+    "MaximumSize": 2147483648.0,
+    "Size": 17718068.0,
+    "ExecuteBefore": "2024-06-27T05:10:09+00:00",
+    "UserRole": {
+      "$id": "55",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.RoleViewModel, Tdms.Nano360",
+      "Member": {
+        "$id": "56",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Editor": {
+        "$id": "57",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Admin": {
+        "$id": "58",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "OrganizationAdmin": {
+        "$id": "59",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": true,
+        "HasWorkgroupRole": true,
+        "Groups": [
+          {
+            "$id": "60",
+            "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+            "Description": "Администраторы организации",
+            "Handle": "TH7509035909190000000000",
+            "SysId": "{57D9E945-FC34-4F6E-B55E-7DA9CB5E8963}",
+            "Type": "Object"
+          }
+        ]
+      },
+      "SimpleRole": "ROLE_ORGANIZATIONADMIN",
+      "User": {
+        "$id": "61",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+        "Description": "ADMIN",
+        "Handle": "TH3D08151308150000000000",
+        "SysId": "USER_C92441CF_1AB7_4758_9C30_0713A2B275B6",
+        "Type": "User"
+      }
+    },
+    "Status": {
+      "$id": "62",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "В работе",
+      "Handle": "THBD9B19A49B000000000000",
+      "SysId": "INWORK_STATUS_DEF",
+      "Type": "Status"
+    },
+    "DiskLetter": "V",
+    "CreateTime": "2024-06-27T05:10:22.13+00:00",
+    "Private": false,
+    "ModifyUser": {
+      "$id": "63",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "ADMIN",
+      "Handle": "TH7E04156904000000000000",
+      "SysId": "USER_55B683B7_186F_4892_9CE8_5594BA45F95E",
+      "Type": "User"
+    },
+    "ModifyTime": "2025-01-16T06:13:06.378+00:00",
+    "Locked": false,
+    "Deleted": false,
+    "LockType": 0,
+    "ObjectType": "PROJECT_DEF",
+    "Description": "Магнит",
+    "GUID": "{C10697B0-5E65-4189-BDE6-707E6E97E6B7}",
+    "Handle": "TH071A03ED19170000000000",
+    "IconId": 1733
+  },
+  {
+    "$id": "64",
+    "$type": "Tdms.Nano360.WebApi.ViewModels.ProjectViewModel, Tdms.Nano360",
+    "Customer": "{х}",
+    "Readiness": 0.0,
+    "MaximumSize": 4294967296.0,
+    "Size": 102621926.0,
+    "ExecuteBefore": "2024-09-04T04:51:44+00:00",
+    "UserRole": {
+      "$id": "65",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.RoleViewModel, Tdms.Nano360",
+      "Member": {
+        "$id": "66",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Editor": {
+        "$id": "67",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Admin": {
+        "$id": "68",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "OrganizationAdmin": {
+        "$id": "69",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": true,
+        "HasWorkgroupRole": true,
+        "Groups": [
+          {
+            "$id": "70",
+            "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+            "Description": "Администраторы организации",
+            "Handle": "TH7509035909190000000000",
+            "SysId": "{57D9E945-FC34-4F6E-B55E-7DA9CB5E8963}",
+            "Type": "Object"
+          }
+        ]
+      },
+      "SimpleRole": "ROLE_ORGANIZATIONADMIN",
+      "User": {
+        "$id": "71",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+        "Description": "ADMIN",
+        "Handle": "TH3D08151308150000000000",
+        "SysId": "USER_C92441CF_1AB7_4758_9C30_0713A2B275B6",
+        "Type": "User"
+      }
+    },
+    "Status": {
+      "$id": "72",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "Архивный",
+      "Handle": "TH8373195F730B0000000000",
+      "SysId": "ARCHIVE_STATUS_DEF",
+      "Type": "Status"
+    },
+    "DiskLetter": "Q",
+    "CreateTime": "2024-09-04T04:52:18.3+00:00",
+    "Private": false,
+    "ModifyUser": {
+      "$id": "73",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "ADMIN",
+      "Handle": "THF10815C708150000000000",
+      "SysId": "USER_B089745E_0E52_4C61_AA58_C65CCCE628B3",
+      "Type": "User"
+    },
+    "ModifyTime": "2024-12-17T04:59:31.921+00:00",
+    "Locked": false,
+    "Deleted": false,
+    "LockType": 0,
+    "ObjectType": "PROJECT_DEF",
+    "Description": "Sep",
+    "GUID": "{28165B47-9CFD-4553-A13F-001BFA059BCF}",
+    "Handle": "THF23903D739180000000000",
+    "IconId": 1733
+  },
+  {
+    "$id": "74",
+    "$type": "Tdms.Nano360.WebApi.ViewModels.ProjectViewModel, Tdms.Nano360",
+    "Customer": "ООО Компания",
+    "Readiness": 0.0,
+    "MaximumSize": 2147483648.0,
+    "Size": 296236875.0,
+    "ExecuteBefore": "2024-11-13T04:04:50.237+00:00",
+    "UserRole": {
+      "$id": "75",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.RoleViewModel, Tdms.Nano360",
+      "Member": {
+        "$id": "76",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": true,
+        "HasWorkgroupRole": true,
+        "Groups": [
+          {
+            "$id": "77",
+            "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+            "Description": "Здесь все Никита, Стас, Гена, Турбо и Дюша Метёлкин...",
+            "Handle": "THBB0F03A30F150000000000",
+            "SysId": "{089BE5F3-A81D-46AC-9D37-95A0CCD48D4C}",
+            "Type": "Object"
+          }
+        ]
+      },
+      "Editor": {
+        "$id": "78",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Admin": {
+        "$id": "79",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "OrganizationAdmin": {
+        "$id": "80",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": true,
+        "HasWorkgroupRole": true,
+        "Groups": [
+          {
+            "$id": "81",
+            "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+            "Description": "Администраторы организации",
+            "Handle": "TH7509035909190000000000",
+            "SysId": "{57D9E945-FC34-4F6E-B55E-7DA9CB5E8963}",
+            "Type": "Object"
+          }
+        ]
+      },
+      "SimpleRole": "ROLE_ORGANIZATIONADMIN",
+      "User": {
+        "$id": "82",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+        "Description": "ADMIN",
+        "Handle": "TH3D08151308150000000000",
+        "SysId": "USER_C92441CF_1AB7_4758_9C30_0713A2B275B6",
+        "Type": "User"
+      }
+    },
+    "Status": {
+      "$id": "83",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "Архивный",
+      "Handle": "TH8373195F730B0000000000",
+      "SysId": "ARCHIVE_STATUS_DEF",
+      "Type": "Status"
+    },
+    "DiskLetter": "V",
+    "CreateTime": "2024-11-13T04:05:21.932+00:00",
+    "Private": false,
+    "ModifyUser": {
+      "$id": "84",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "ADMIN",
+      "Handle": "THF10815C708150000000000",
+      "SysId": "USER_B089745E_0E52_4C61_AA58_C65CCCE628B3",
+      "Type": "User"
+    },
+    "ModifyTime": "2024-12-17T04:59:38.021+00:00",
+    "Locked": false,
+    "Deleted": false,
+    "LockType": 0,
+    "ObjectType": "PROJECT_DEF",
+    "Description": "Еловый небулайзер",
+    "GUID": "{F92618FB-D6BC-420A-9119-37AFFAEB6318}",
+    "Handle": "TH4334032734190000000000",
+    "IconId": 1733
+  },
+  {
+    "$id": "85",
+    "$type": "Tdms.Nano360.WebApi.ViewModels.ProjectViewModel, Tdms.Nano360",
+    "Customer": "",
+    "Readiness": 0.0,
+    "MaximumSize": 1073741824.0,
+    "Size": 184384.0,
+    "ExecuteBefore": "2024-01-19T08:08:47+00:00",
+    "UserRole": {
+      "$id": "86",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.RoleViewModel, Tdms.Nano360",
+      "Member": {
+        "$id": "87",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Editor": {
+        "$id": "88",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Admin": {
+        "$id": "89",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": true,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "OrganizationAdmin": {
+        "$id": "90",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "SimpleRole": "ROLE_PROJECTADMIN",
+      "User": {
+        "$id": "91",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+        "Description": "ADMIN",
+        "Handle": "TH3D08151308150000000000",
+        "SysId": "USER_C92441CF_1AB7_4758_9C30_0713A2B275B6",
+        "Type": "User"
+      }
+    },
+    "Status": {
+      "$id": "92",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "В работе",
+      "Handle": "THBD9B19A49B000000000000",
+      "SysId": "INWORK_STATUS_DEF",
+      "Type": "Status"
+    },
+    "DiskLetter": "P",
+    "CreateTime": "2024-11-20T05:52:25.792+00:00",
+    "Private": false,
+    "ModifyUser": {
+      "$id": "93",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "ADMIN",
+      "Handle": "TH3D08151308150000000000",
+      "SysId": "USER_C92441CF_1AB7_4758_9C30_0713A2B275B6",
+      "Type": "User"
+    },
+    "ModifyTime": "2024-11-20T05:52:48.739+00:00",
+    "Locked": false,
+    "Deleted": false,
+    "LockType": 0,
+    "ObjectType": "PROJECT_DEF",
+    "Description": "Новый проект",
+    "GUID": "{AE1EE1F8-4FBB-4780-9911-341225AA9E1A}",
+    "Handle": "THFAFF03DBFF1C0000000000",
+    "IconId": 1733
+  },
+  {
+    "$id": "94",
+    "$type": "Tdms.Nano360.WebApi.ViewModels.ProjectViewModel, Tdms.Nano360",
+    "Customer": "ЯR",
+    "Readiness": 0.0,
+    "MaximumSize": 5368709120.0,
+    "Size": 3136814013.0,
+    "ExecuteBefore": "2026-01-01T09:35:47+00:00",
+    "UserRole": {
+      "$id": "95",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.RoleViewModel, Tdms.Nano360",
+      "Member": {
+        "$id": "96",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Editor": {
+        "$id": "97",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Admin": {
+        "$id": "98",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "OrganizationAdmin": {
+        "$id": "99",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": true,
+        "HasWorkgroupRole": true,
+        "Groups": [
+          {
+            "$id": "100",
+            "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+            "Description": "Администраторы организации",
+            "Handle": "TH7509035909190000000000",
+            "SysId": "{57D9E945-FC34-4F6E-B55E-7DA9CB5E8963}",
+            "Type": "Object"
+          }
+        ]
+      },
+      "SimpleRole": "ROLE_ORGANIZATIONADMIN",
+      "User": {
+        "$id": "101",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+        "Description": "ADMIN",
+        "Handle": "TH3D08151308150000000000",
+        "SysId": "USER_C92441CF_1AB7_4758_9C30_0713A2B275B6",
+        "Type": "User"
+      }
+    },
+    "Status": {
+      "$id": "102",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "В работе",
+      "Handle": "THBD9B19A49B000000000000",
+      "SysId": "INWORK_STATUS_DEF",
+      "Type": "Status"
+    },
+    "DiskLetter": "R",
+    "CreateTime": "2024-12-05T09:36:35.617+00:00",
+    "Private": false,
+    "ModifyUser": {
+      "$id": "103",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "ADMIN",
+      "Handle": "TH7E04156904000000000000",
+      "SysId": "USER_55B683B7_186F_4892_9CE8_5594BA45F95E",
+      "Type": "User"
+    },
+    "ModifyTime": "2025-03-27T09:49:52.758+00:00",
+    "Locked": false,
+    "Deleted": false,
+    "LockType": 0,
+    "ObjectType": "PROJECT_DEF",
+    "Description": "Новая версия Валенсии",
+    "GUID": "{5124434B-F0DC-4213-8E43-A446B6C576FF}",
+    "Handle": "THC1D20396D2280000000000",
+    "IconId": 1733
+  },
+  {
+    "$id": "104",
+    "$type": "Tdms.Nano360.WebApi.ViewModels.ProjectViewModel, Tdms.Nano360",
+    "Customer": "Дед Мороз",
+    "Readiness": 0.0,
+    "MaximumSize": 3221225472.0,
+    "Size": 394076526.0,
+    "ExecuteBefore": "2025-01-01T06:37:52+00:00",
+    "UserRole": {
+      "$id": "105",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.RoleViewModel, Tdms.Nano360",
+      "Member": {
+        "$id": "106",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Editor": {
+        "$id": "107",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "Admin": {
+        "$id": "108",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": false,
+        "HasWorkgroupRole": false,
+        "Groups": []
+      },
+      "OrganizationAdmin": {
+        "$id": "109",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.RoleItemViewModel, Tdms.Nano360",
+        "HasRole": true,
+        "HasWorkgroupRole": true,
+        "Groups": [
+          {
+            "$id": "110",
+            "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+            "Description": "Администраторы организации",
+            "Handle": "TH7509035909190000000000",
+            "SysId": "{57D9E945-FC34-4F6E-B55E-7DA9CB5E8963}",
+            "Type": "Object"
+          }
+        ]
+      },
+      "SimpleRole": "ROLE_ORGANIZATIONADMIN",
+      "User": {
+        "$id": "111",
+        "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+        "Description": "Юзер Б",
+        "Handle": "TH3D08151308150000000000",
+        "SysId": "USER_C92441CF_1AB7_4758_9C30_0713A2B275B6",
+        "Type": "User"
+      }
+    },
+    "Status": {
+      "$id": "112",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "В работе",
+      "Handle": "THBD9B19A49B000000000000",
+      "SysId": "INWORK_STATUS_DEF",
+      "Type": "Status"
+    },
+    "DiskLetter": "O",
+    "CreateTime": "2024-12-23T06:38:16.81+00:00",
+    "Private": false,
+    "ModifyUser": {
+      "$id": "113",
+      "$type": "Tdms.Nano360.WebApi.ViewModels.ReferenceViewModel, Tdms.Nano360",
+      "Description": "Юзер А",
+      "Handle": "TH8907155F07150000000000",
+      "SysId": "USER_1782D130_4028_4D7F_9D9A_5748086CD7CC",
+      "Type": "User"
+    },
+    "ModifyTime": "2025-03-21T10:27:36.128+00:00",
+    "Locked": false,
+    "Deleted": false,
+    "LockType": 0,
+    "ObjectType": "PROJECT_DEF",
+    "Description": "НГ",
+    "GUID": "{0108127C-E147-44F2-991E-602895F23D20}",
+    "Handle": "THE8ED03BAED2B0000000000",
+    "IconId": 1733
+  }
+]

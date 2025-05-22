@@ -1,0 +1,1083 @@
+[
+  {
+    "$id": "1",
+    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+    "Children": [
+      {
+        "$id": "2",
+        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+        "Children": [],
+        "ObjectType": "FOLDER_DEF",
+        "Description": "1024",
+        "GUID": "{5914F7D1-3398-4313-8E57-1485A6166E5C}",
+        "Handle": "TH6FB60328B6440000000000",
+        "IconId": 0
+      },
+      {
+        "$id": "3",
+        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+        "Children": [],
+        "ObjectType": "FOLDER_DEF",
+        "Description": "Всячина",
+        "GUID": "{C74A1E94-18B3-4565-BC3A-C9937B9181EE}",
+        "Handle": "TH7F6E03536E290000000000",
+        "IconId": 0
+      },
+      {
+        "$id": "4",
+        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+        "Children": [
+          {
+            "$id": "5",
+            "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+            "Children": [],
+            "ObjectType": "FOLDER_DEF",
+            "Description": "Молитесь",
+            "GUID": "{B9FCA621-30BB-4AFD-9ACE-3F4A3F0F98FC}",
+            "Handle": "TH0A4103DE40290000000000",
+            "IconId": 0
+          }
+        ],
+        "ObjectType": "FOLDER_DEF",
+        "Description": "Test",
+        "GUID": "{25630A53-C32E-4D09-887A-BF4B490A8538}",
+        "Handle": "THDD3F03B13F290000000000",
+        "IconId": 0
+      },
+      {
+        "$id": "6",
+        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+        "Children": [],
+        "ObjectType": "FOLDER_DEF",
+        "Description": "Пдф-ки",
+        "GUID": "{A23D0E4A-7D2E-4EF2-AF65-0B8C8464EFD3}",
+        "Handle": "THE8EB03BDEB280000000000",
+        "IconId": 0
+      },
+      {
+        "$id": "7",
+        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+        "Children": [
+          {
+            "$id": "8",
+            "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+            "Children": [
+              {
+                "$id": "9",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [
+                  {
+                    "$id": "10",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "Прилагаемые документы",
+                    "GUID": "{19BE6560-A6C6-4F67-8912-985CCD8F3F95}",
+                    "Handle": "TH293303FD32290000000000",
+                    "IconId": 0
+                  },
+                  {
+                    "$id": "11",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "Графическая часть",
+                    "GUID": "{07C97CC2-3613-4268-ABA3-7D5A993327C5}",
+                    "Handle": "TH472C031B2C290000000000",
+                    "IconId": 0
+                  }
+                ],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "Книга 1",
+                "GUID": "{A7D6902F-3A0D-4089-A017-E6BF1F6D42B9}",
+                "Handle": "TH3A2C030E2C290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "12",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [
+                  {
+                    "$id": "13",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "Графическая часть",
+                    "GUID": "{91C19BED-1618-4E01-B69B-9C15661D4241}",
+                    "Handle": "TH6335033735290000000000",
+                    "IconId": 0
+                  },
+                  {
+                    "$id": "14",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "Прилагаемые документы",
+                    "GUID": "{576427C0-3230-4DD5-9A3D-69D4BFD61E6F}",
+                    "Handle": "THAA36037E36290000000000",
+                    "IconId": 0
+                  }
+                ],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "Книга 2",
+                "GUID": "{AB990E73-982E-47F9-BC00-5E0FBC8B13AB}",
+                "Handle": "TH4035031435290000000000",
+                "IconId": 0
+              }
+            ],
+            "ObjectType": "FOLDER_DEF",
+            "Description": "Том 6",
+            "GUID": "{763734ED-923F-43B0-B273-4A77C5D5AE13}",
+            "Handle": "TH2B2C03FF2B290000000000",
+            "IconId": 0
+          },
+          {
+            "$id": "15",
+            "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+            "Children": [
+              {
+                "$id": "16",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [
+                  {
+                    "$id": "17",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [
+                      {
+                        "$id": "18",
+                        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                        "Children": [],
+                        "ObjectType": "FOLDER_DEF",
+                        "Description": "Графическая часть",
+                        "GUID": "{9B860BEA-492E-414F-AA5B-44161018D8C4}",
+                        "Handle": "THBD24039124290000000000",
+                        "IconId": 0
+                      }
+                    ],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "142-2011-РД-1.2-КС",
+                    "GUID": "{326F6641-0643-40AB-8007-F0C564D85C27}",
+                    "Handle": "THAE24038224290000000000",
+                    "IconId": 0
+                  }
+                ],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "Книга 2",
+                "GUID": "{3904A511-3A66-479F-883A-BBB16528F11C}",
+                "Handle": "TH9D24037124290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "19",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [
+                  {
+                    "$id": "20",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [
+                      {
+                        "$id": "21",
+                        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                        "Children": [],
+                        "ObjectType": "FOLDER_DEF",
+                        "Description": "Графическая часть",
+                        "GUID": "{D5E69C3F-7E0E-4810-B7E5-F97166D32252}",
+                        "Handle": "THE72103BB21290000000000",
+                        "IconId": 0
+                      },
+                      {
+                        "$id": "22",
+                        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                        "Children": [],
+                        "ObjectType": "FOLDER_DEF",
+                        "Description": "Прилагаемые",
+                        "GUID": "{29D24DC3-DE4E-4385-9EEB-B847AA61EA78}",
+                        "Handle": "TH5624032A24290000000000",
+                        "IconId": 0
+                      }
+                    ],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "142-2011-РД-1.1-КС",
+                    "GUID": "{216C8C87-6C8C-4A89-B571-5E41BFA7D4D1}",
+                    "Handle": "THD42103A821290000000000",
+                    "IconId": 0
+                  }
+                ],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "Книга 1",
+                "GUID": "{4B79DAD5-F1D6-4F33-9442-442D5AA11875}",
+                "Handle": "THC221039621290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "23",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "Книга 3",
+                "GUID": "{9263BD8A-C4CE-423A-B278-0B2211D037BE}",
+                "Handle": "TH4127031527290000000000",
+                "IconId": 0
+              }
+            ],
+            "ObjectType": "FOLDER_DEF",
+            "Description": "Том 5",
+            "GUID": "{51614CC2-216A-4A1A-B420-840F7DE57B86}",
+            "Handle": "THB021038421290000000000",
+            "IconId": 0
+          },
+          {
+            "$id": "24",
+            "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+            "Children": [
+              {
+                "$id": "25",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "магазин-кафе",
+                "GUID": "{FEBEDB3D-5009-4EBE-8F9F-C83F11FCF661}",
+                "Handle": "TH6117033517290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "26",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "384_700_12-",
+                "GUID": "{A727C441-8D44-4858-8AA3-C14944B990F3}",
+                "Handle": "TH220B03F60A290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "27",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "Проект ГСН",
+                "GUID": "{826AD90F-6C13-4603-B78E-6835B4E26959}",
+                "Handle": "THAC18038018290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "28",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "gaz_kvartira",
+                "GUID": "{98319746-9BCC-4003-803A-7CF07BB7C03C}",
+                "Handle": "TH7413034813290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "29",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [
+                  {
+                    "$id": "30",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "НА отправку",
+                    "GUID": "{6FBDE4B2-F757-4F74-8428-7C355980910A}",
+                    "Handle": "TH3B09030F09290000000000",
+                    "IconId": 0
+                  }
+                ],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "338_800_4Lz",
+                "GUID": "{07FE6F74-3610-492F-8415-7410BCB106B6}",
+                "Handle": "TH2A0903FE08290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "31",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "531___2_",
+                "GUID": "{7F1E035B-F402-485E-9451-AD9218236A9A}",
+                "Handle": "TH600D03340D290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "32",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [
+                  {
+                    "$id": "33",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "7.ОХРАНА ОКРУЖАЮЩЕЙ СРЕДЫ",
+                    "GUID": "{CCC53BB3-6F70-42DC-8063-9085B6364CA6}",
+                    "Handle": "THE61B03BA1B290000000000",
+                    "IconId": 0
+                  },
+                  {
+                    "$id": "34",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "2.ГАЗОСНАБЖЕНИЕ НАРУЖНОЕ",
+                    "GUID": "{0307FA5E-D7EF-4854-A02D-BF7B6243F1B8}",
+                    "Handle": "THA319037719290000000000",
+                    "IconId": 0
+                  },
+                  {
+                    "$id": "35",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "6.ОРГАНИЗАЦИЯ СТРОИТЕЛЬСТВА",
+                    "GUID": "{7CEC7265-D94A-493B-A2DC-B1A38F68397E}",
+                    "Handle": "TH871B035B1B290000000000",
+                    "IconId": 0
+                  },
+                  {
+                    "$id": "36",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "4. ОТОПЛЕНИЕ И ВЕНТИЛЯЦИЯ",
+                    "GUID": "{D3D6FABC-2A83-4E6F-A015-C4359D476659}",
+                    "Handle": "TH251B03F91A290000000000",
+                    "IconId": 0
+                  },
+                  {
+                    "$id": "37",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "5. ЭЛЕКТРОСНАБЖЕНИЕ",
+                    "GUID": "{B5A9F19D-FAC2-44E1-8F6C-7F9A00594F9F}",
+                    "Handle": "TH541B03281B290000000000",
+                    "IconId": 0
+                  },
+                  {
+                    "$id": "38",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "3. ГАЗОСНАБЖЕНИЕ ВНУТРЕННЕЕ",
+                    "GUID": "{714E5A93-BB93-4017-B465-D7DC7D1C4501}",
+                    "Handle": "TH661A033A1A290000000000",
+                    "IconId": 0
+                  }
+                ],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "ТЕЗИНСКАЯ ГОРА 1, КВ-РА №4",
+                "GUID": "{A1B2BF14-AE55-47D0-9B74-BCD709EA9AB3}",
+                "Handle": "TH9619036A19290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "39",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "526_kYV",
+                "GUID": "{C6B6ECBB-453A-4C96-8D84-7019B600AFE3}",
+                "Handle": "THFB0C03CF0C290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "40",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [
+                  {
+                    "$id": "41",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [
+                      {
+                        "$id": "42",
+                        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                        "Children": [],
+                        "ObjectType": "FOLDER_DEF",
+                        "Description": "Общие данные",
+                        "GUID": "{F88527A0-13E2-4342-B16D-22BE9029AA7F}",
+                        "Handle": "THF70703CB07290000000000",
+                        "IconId": 0
+                      }
+                    ],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "записка",
+                    "GUID": "{14B2D780-BDB6-4DC2-9CA0-9A23582EFDF5}",
+                    "Handle": "TH4907031D07290000000000",
+                    "IconId": 0
+                  }
+                ],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "336_797_OWF",
+                "GUID": "{169C35C3-5C5E-4D1E-A303-B10BC6845E16}",
+                "Handle": "TH1B0703EF06290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "43",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "с. Змеёвка, Советская, 4 - копия",
+                "GUID": "{4911BA24-6680-4E84-B560-D4A3732481CD}",
+                "Handle": "THB918038D18290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "44",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [
+                  {
+                    "$id": "45",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "2",
+                    "GUID": "{C4BD7E3C-66F5-4D6D-99E6-21AD37A4256A}",
+                    "Handle": "TH5D11033111290000000000",
+                    "IconId": 0
+                  }
+                ],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "740_dqE",
+                "GUID": "{8A2AC181-4FE5-40EF-A7ED-7641FB603287}",
+                "Handle": "TH5011032411290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "46",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [
+                  {
+                    "$id": "47",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "Новая папка",
+                    "GUID": "{F89BD6EE-6E6E-430E-AA5C-5ABA10DC6532}",
+                    "Handle": "THF90E03CD0E290000000000",
+                    "IconId": 0
+                  }
+                ],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "630_uQP",
+                "GUID": "{3C32D22D-F7EC-4332-8A26-AD13CDE1F7A5}",
+                "Handle": "THD40E03A80E290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "48",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "262_241_gaz_kot1",
+                "GUID": "{A543BA7A-02E2-403D-B327-70FAB2453267}",
+                "Handle": "THFD0403D104290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "49",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "502_1411_T7E",
+                "GUID": "{C3582BB9-0F90-4C0A-81EC-63FCC4EB1C1D}",
+                "Handle": "TH7F0B03530B290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "50",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "356_617-Standard",
+                "GUID": "{A7C26E8C-6D69-4C28-AB1F-3961F71051E1}",
+                "Handle": "THD00903A409290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "51",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "817_1690_hHN",
+                "GUID": "{F371D701-DE2D-432C-8D94-CE83ACDEB956}",
+                "Handle": "THA212037612290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "52",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [
+                  {
+                    "$id": "53",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "Газоснабжение частного дома",
+                    "GUID": "{603AB651-BB67-4367-A383-553B40D6E279}",
+                    "Handle": "TH0C1303E012290000000000",
+                    "IconId": 0
+                  }
+                ],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "gazosnabzhenie",
+                "GUID": "{6AB1D19F-F665-4A87-B4CF-F96CBC1DA62D}",
+                "Handle": "THFF1203D312290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "54",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "perevooruzhenie_s_zhidkogo_na_gazoobraznoe_toplivo",
+                "GUID": "{848F2FD1-5B0B-4C93-98C1-F8A6D62F8DC8}",
+                "Handle": "TH5314032714290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "55",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "187_973-netstroi.ru",
+                "GUID": "{DBD2B24D-0F2A-4F24-8431-75B9B4EF8903}",
+                "Handle": "TH8004035404290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "56",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "в путь",
+                "GUID": "{3DFAE635-45C8-4569-B83C-DC16F465626A}",
+                "Handle": "THE41503B815290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "57",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [
+                  {
+                    "$id": "58",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "проект по гпзоснабжению жилого дома",
+                    "GUID": "{AC841B69-8F6F-40C2-A90E-E5C85AADF8D7}",
+                    "Handle": "TH4F15032315290000000000",
+                    "IconId": 0
+                  }
+                ],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "proet_gazosnabzhenija_zhilogo_doma",
+                "GUID": "{BB25A1DD-1381-4C9C-B39D-25B9D404558D}",
+                "Handle": "TH4215031615290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "59",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "704_1613_LW_",
+                "GUID": "{5FA95B08-5B66-4B88-A7E2-F65F74A4C162}",
+                "Handle": "THEB1003BF10290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "60",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "г.Сосновка, ул. Бабушкина 26",
+                "GUID": "{241BF8E8-8BF4-4D19-BBFE-87A35869C41A}",
+                "Handle": "THAB16037F16290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "61",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "514_1448_amo",
+                "GUID": "{0DE464A3-28FC-4D6B-A985-A76899C443A0}",
+                "Handle": "THCA0B039E0B290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "62",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "6724390ыв",
+                "GUID": "{6E0EDE09-DC6C-4AA8-808F-AE1791B39365}",
+                "Handle": "TH540F03280F290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "63",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "plan_i_profili_raspredelitelnogo_gazoprovoda",
+                "GUID": "{79E66032-D972-470C-A8C2-B4D19C1D06FB}",
+                "Handle": "TH8C14036014290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "64",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [
+                  {
+                    "$id": "65",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "Расчёт систем газоснабжения городов",
+                    "GUID": "{DFB0955A-F188-423D-8576-12C6F5B74737}",
+                    "Handle": "TH101403E413290000000000",
+                    "IconId": 0
+                  }
+                ],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "gzs-gorodov",
+                "GUID": "{975AB9D5-4B01-49E7-AEEA-45F821ABD218}",
+                "Handle": "TH031403D713290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "66",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "533_1448_amo",
+                "GUID": "{721D4EB9-654F-4CB6-8E12-4DE390CADE17}",
+                "Handle": "THBB0D038F0D290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "67",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "380_692_",
+                "GUID": "{19582735-84E5-4803-9D1F-584F10E3C87E}",
+                "Handle": "TH450A03190A290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "68",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "gazosnabzhenie_chastnogo_doma_tjumenskaja_oblast",
+                "GUID": "{A8646A24-B0FC-4404-A9C4-2A3C4CA1A636}",
+                "Handle": "TH3313030713290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "69",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "proektirovanie_sistem_gazoraspredelenija",
+                "GUID": "{75B69C4C-4EF3-4B9A-8287-48BA91188C3F}",
+                "Handle": "THCD1403A114290000000000",
+                "IconId": 0
+              }
+            ],
+            "ObjectType": "FOLDER_DEF",
+            "Description": "ПРИМЕРЫ ЧЕРТЕЖЕЙ ГАЗОСНАБЖЕНИЯ(www.club-gas.ru)",
+            "GUID": "{9087C876-F443-4959-A067-608E7B1834BB}",
+            "Handle": "THF8FE03CDFE280000000000",
+            "IconId": 0
+          },
+          {
+            "$id": "70",
+            "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+            "Children": [],
+            "ObjectType": "FOLDER_DEF",
+            "Description": "Еще чертежей",
+            "GUID": "{655BF552-1BBD-4789-BA2B-51716DD170E2}",
+            "Handle": "THD8EF03ADEF280000000000",
+            "IconId": 0
+          },
+          {
+            "$id": "71",
+            "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+            "Children": [],
+            "ObjectType": "FOLDER_DEF",
+            "Description": "Пример dwg Каркасное ЖБ здание",
+            "GUID": "{56BF61E5-9859-43A9-A8CD-1A44675FF912}",
+            "Handle": "TH37F3030CF3280000000000",
+            "IconId": 0
+          },
+          {
+            "$id": "72",
+            "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+            "Children": [
+              {
+                "$id": "73",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "отопление",
+                "GUID": "{FE4633AB-6A60-400C-98E8-776A79B74E89}",
+                "Handle": "THC020039420290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "74",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "РД ИТП",
+                "GUID": "{3EEE276F-E41B-4E46-87CD-83F72604F57F}",
+                "Handle": "TH6921033D21290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "75",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "otoplenie_kursovaja",
+                "GUID": "{7BD0A1A0-EAF7-404A-98ED-884C0CF47C1F}",
+                "Handle": "TH2D20030120290000000000",
+                "IconId": 0
+              }
+            ],
+            "ObjectType": "FOLDER_DEF",
+            "Description": "ПРИМЕРЫ ЧЕРТЕЖЕЙ ОТОПЛЕНИЯ(www.stroj-proekti.ru)",
+            "GUID": "{CEC3B41F-0E7C-42F3-BC61-8440A994F04C}",
+            "Handle": "THD01F03A41F290000000000",
+            "IconId": 0
+          },
+          {
+            "$id": "76",
+            "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+            "Children": [
+              {
+                "$id": "77",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "proekt_po_ventiljacii_piccerii",
+                "GUID": "{BB7191AC-D593-4318-920C-BE9972235D1C}",
+                "Handle": "TH651F03391F290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "78",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [
+                  {
+                    "$id": "79",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "Деталировка",
+                    "GUID": "{1D67744B-7A51-40A1-B135-E36E473EB42E}",
+                    "Handle": "TH961E036A1E290000000000",
+                    "IconId": 0
+                  }
+                ],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "proektirovanie_ventiljacii_mukomolnogo_proizvodstva",
+                "GUID": "{05D5D659-46AF-4E48-B1A3-A78D7152F8C5}",
+                "Handle": "THBB1D038F1D290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "80",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "otoplenie_i_ventiljacija._ofisnogo_zdanija",
+                "GUID": "{2578654E-5827-4C94-9B16-E7F2CC9A8102}",
+                "Handle": "THF41C03C81C290000000000",
+                "IconId": 0
+              }
+            ],
+            "ObjectType": "FOLDER_DEF",
+            "Description": "ПРИМЕРЫ ЧЕРТЕЖЕЙ ОТОПЛЕНИЯ И ВЕНТИЛЯЦИИ (www.stroj-proekti.ru)",
+            "GUID": "{4F59BCDE-AD36-4BB1-ABCF-E07125723176}",
+            "Handle": "TH271C03FB1B290000000000",
+            "IconId": 0
+          },
+          {
+            "$id": "81",
+            "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+            "Children": [
+              {
+                "$id": "82",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [
+                  {
+                    "$id": "83",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "Графическая часть",
+                    "GUID": "{75E0A5EA-14F5-436B-BC80-730BA6F375E3}",
+                    "Handle": "TH9537036937290000000000",
+                    "IconId": 0
+                  },
+                  {
+                    "$id": "84",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "Прилагаемая часть",
+                    "GUID": "{A4957F40-2648-4B03-BFC8-01AC0F8E3E40}",
+                    "Handle": "THF93803CD38290000000000",
+                    "IconId": 0
+                  }
+                ],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "Книга 1",
+                "GUID": "{A8740995-3076-404E-BCE3-EF2796415C73}",
+                "Handle": "TH8837035C37290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "85",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [
+                  {
+                    "$id": "86",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "Прилагаемая часть",
+                    "GUID": "{1C4A8831-9840-464F-B428-F17431D95A58}",
+                    "Handle": "TH5C3F03303F290000000000",
+                    "IconId": 0
+                  },
+                  {
+                    "$id": "87",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "Графическая часть",
+                    "GUID": "{5044FED3-BB1F-4743-8D27-958FFFF49472}",
+                    "Handle": "TH1F3C03F33B290000000000",
+                    "IconId": 0
+                  }
+                ],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "Книга 3",
+                "GUID": "{6F70838B-BEC2-4720-B98B-6C4590A58C7A}",
+                "Handle": "TH0E3C03E23B290000000000",
+                "IconId": 0
+              },
+              {
+                "$id": "88",
+                "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                "Children": [
+                  {
+                    "$id": "89",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [
+                      {
+                        "$id": "90",
+                        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                        "Children": [],
+                        "ObjectType": "FOLDER_DEF",
+                        "Description": "Технические условия",
+                        "GUID": "{C7FF8C64-E86E-4803-87EB-70A38EACDB5E}",
+                        "Handle": "THA13B03753B290000000000",
+                        "IconId": 0
+                      },
+                      {
+                        "$id": "91",
+                        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                        "Children": [],
+                        "ObjectType": "FOLDER_DEF",
+                        "Description": "Спецификация оборудования, изделий и материалов",
+                        "GUID": "{1A21C949-8E06-4CC9-B5B3-3CA4EA1CE961}",
+                        "Handle": "TH723B03463B290000000000",
+                        "IconId": 0
+                      }
+                    ],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "Прилагаемые документы",
+                    "GUID": "{B1484D53-406C-453B-B5F4-9D255B041504}",
+                    "Handle": "TH633B03373B290000000000",
+                    "IconId": 0
+                  },
+                  {
+                    "$id": "92",
+                    "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+                    "Children": [],
+                    "ObjectType": "FOLDER_DEF",
+                    "Description": "Графическая часть",
+                    "GUID": "{24327915-5D39-44BD-8BC1-40DA0B938044}",
+                    "Handle": "TH9839036C39290000000000",
+                    "IconId": 0
+                  }
+                ],
+                "ObjectType": "FOLDER_DEF",
+                "Description": "Книга 2",
+                "GUID": "{AA4F9728-69C7-4E74-8623-B25E4299D51E}",
+                "Handle": "TH8739035B39290000000000",
+                "IconId": 0
+              }
+            ],
+            "ObjectType": "FOLDER_DEF",
+            "Description": "Том 7",
+            "GUID": "{E8614376-840B-4F1D-A24F-0B2C19C0944A}",
+            "Handle": "TH7B37034F37290000000000",
+            "IconId": 0
+          }
+        ],
+        "ObjectType": "FOLDER_DEF",
+        "Description": "Gladkikh",
+        "GUID": "{9AFD5A39-74A6-4299-9290-C9EB128EF5B2}",
+        "Handle": "TH1DEF03F2EE280000000000",
+        "IconId": 0
+      },
+      {
+        "$id": "93",
+        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+        "Children": [],
+        "ObjectType": "FOLDER_DEF",
+        "Description": "232323",
+        "GUID": "{D180F605-52BF-400F-9757-EE3DDC472A3F}",
+        "Handle": "TH2DED03FFEC2B0000000000",
+        "IconId": 0
+      },
+      {
+        "$id": "94",
+        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+        "Children": [
+          {
+            "$id": "95",
+            "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+            "Children": [],
+            "ObjectType": "FOLDER_DEF",
+            "Description": "1",
+            "GUID": "{6EBB5EBD-89F9-493C-BB6D-B645A98A7699}",
+            "Handle": "THB25E036A5E450000000000",
+            "IconId": 0
+          },
+          {
+            "$id": "96",
+            "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+            "Children": [],
+            "ObjectType": "FOLDER_DEF",
+            "Description": "Для переговоров",
+            "GUID": "{8447E449-DBE7-425F-AB78-5B4C767634EC}",
+            "Handle": "TH74180336183B0000000000",
+            "IconId": 0
+          },
+          {
+            "$id": "97",
+            "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+            "Children": [],
+            "ObjectType": "FOLDER_DEF",
+            "Description": "Share",
+            "GUID": "{3F66556C-95B3-4CCE-A027-EEFFB43A7969}",
+            "Handle": "THED0503B505350000000000",
+            "IconId": 0
+          },
+          {
+            "$id": "98",
+            "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+            "Children": [],
+            "ObjectType": "FOLDER_DEF",
+            "Description": "2",
+            "GUID": "{5580AE7F-4417-4086-98B8-D555BE1B3EFE}",
+            "Handle": "THC05E03785E450000000000",
+            "IconId": 0
+          }
+        ],
+        "ObjectType": "FOLDER_DEF",
+        "Description": "Stroev",
+        "GUID": "{BC068F42-E86B-4987-8549-D8211B375D89}",
+        "Handle": "TH52BD0324BD2B0000000000",
+        "IconId": 0
+      },
+      {
+        "$id": "99",
+        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+        "Children": [],
+        "ObjectType": "FOLDER_DEF",
+        "Description": "Доки",
+        "GUID": "{AC8C640C-C8DE-4F39-AD9A-E06A328E534E}",
+        "Handle": "TH10D303E5D2280000000000",
+        "IconId": 0
+      },
+      {
+        "$id": "100",
+        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+        "Children": [],
+        "ObjectType": "FOLDER_DEF",
+        "Description": "Картинки",
+        "GUID": "{16D5AE50-EB3D-4824-B6C0-96AC675F519C}",
+        "Handle": "TH9FD30374D3280000000000",
+        "IconId": 0
+      },
+      {
+        "$id": "101",
+        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+        "Children": [],
+        "ObjectType": "FOLDER_DEF",
+        "Description": "13.03",
+        "GUID": "{EB198E82-F42A-4E88-969D-D175350FD183}",
+        "Handle": "THA876036076450000000000",
+        "IconId": 0
+      },
+      {
+        "$id": "102",
+        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+        "Children": [
+          {
+            "$id": "103",
+            "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+            "Children": [],
+            "ObjectType": "FOLDER_DEF",
+            "Description": "23,07",
+            "GUID": "{43427A50-A3DB-4664-B825-7DEB73D46F63}",
+            "Handle": "TH9FED0374ED280000000000",
+            "IconId": 0
+          },
+          {
+            "$id": "104",
+            "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+            "Children": [],
+            "ObjectType": "FOLDER_DEF",
+            "Description": "Из прилож",
+            "GUID": "{FABA3B41-E5F4-4ADD-ACE5-872701ED5674}",
+            "Handle": "THAAEE037FEE280000000000",
+            "IconId": 0
+          }
+        ],
+        "ObjectType": "FOLDER_DEF",
+        "Description": "Чертежи",
+        "GUID": "{3F6AD5C6-5177-4866-8D7E-44FA54759922}",
+        "Handle": "THECEC03C1EC280000000000",
+        "IconId": 0
+      },
+      {
+        "$id": "105",
+        "$type": "Tdms.Nano360.ViewModels.TreeItemViewModel, Tdms.Nano360",
+        "Children": [],
+        "ObjectType": "FOLDER_DEF",
+        "Description": "Проверка 24,07",
+        "GUID": "{B6992D66-5EF2-4BF5-BA24-F53A5C3404A9}",
+        "Handle": "THABEC0380EC280000000000",
+        "IconId": 0
+      }
+    ],
+    "ObjectType": "SYSTEMFOLDER_DEF",
+    "Description": "Документы проекта",
+    "GUID": "{7302C60A-6D85-453B-B652-BBE6D3BDB209}",
+    "Handle": "THD1D203A6D2280000000000",
+    "IconId": 19
+  }
+]

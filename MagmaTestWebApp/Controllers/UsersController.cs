@@ -13,21 +13,26 @@ namespace MagmaTestWebApp.Controllers
         private const string _protectedUserId = "1003"; // Админ. Его, так уж и быть, не трогаем
         private readonly DataService _dataService;
         // private readonly object _usersLock = new(); // П - Потокобезопасность
-        // В entity framework есть db async, изобретать велосипед не вижу смысла, не вижу смысла использовать lock и ConcurrentBag
+        // В entity framework есть db async, изобретать велосипед не вижу смысла, т.е. не вижу смысла использовать lock и ConcurrentBag
 
         public UsersController(DataService dataService)
         {
             _dataService = dataService;
         }
 
-        // 1. Эндпоинт запроса всех пользователей
+        /// <summary>
+        /// Возвращает список всех пользователей.
+        /// </summary>
         [HttpGet]
         public ActionResult<IEnumerable<UserViewModel>> GetAllUsers()
         {
             return Ok(_dataService.Users);
         }
 
-        // 2. Эндпоинт запроса пользователя по ID
+        /// <summary>
+        /// Возвращает пользователя по заданному ID.
+        /// </summary>
+        /// <param name="id">ID пользователя</param>
         [HttpGet("{id}")]
         public ActionResult<UserViewModel> GetUserById([FromRoute] string id)
         {
@@ -41,7 +46,10 @@ namespace MagmaTestWebApp.Controllers
             return Ok(user);
         }
 
-        // 3. Эндпоинт создания нового пользователя
+        /// <summary>
+        /// Создает нового пользователя.
+        /// </summary>
+        /// <param name="newUser">Данные нового пользователя</param>
         [HttpPost]
         public ActionResult<UserViewModel> CreateUser([FromBody] UserViewModel newUser)
         {
@@ -79,7 +87,11 @@ namespace MagmaTestWebApp.Controllers
             return CreatedAtAction(nameof(GetUserById), new { id = userToAdd.Id }, userToAdd);
         }
 
-        // 4. Эндпоинт обновления пользователя по ID
+        /// <summary>
+        /// Обновляет данные пользователя по ID.
+        /// </summary>
+        /// <param name="id">ID пользователя</param>
+        /// <param name="updatedUser">Обновленные данные пользователя</param>
         [HttpPut("{id}")]
         public IActionResult UpdateUser([FromRoute] string id, [FromBody] UserViewModel updatedUser)
         {
@@ -115,7 +127,10 @@ namespace MagmaTestWebApp.Controllers
             // Либо return Ok(new { Message = "Пользователь обновлен", User = existingUser });
         }
 
-        // 5. Эндпоинт удаления пользователя по ID
+        /// <summary>
+        /// Удаляет пользователя по ID.
+        /// </summary>
+        /// <param name="id">ID пользователя</param>
         [HttpDelete("{id}")]
         public IActionResult DeleteUser(string id)
         {

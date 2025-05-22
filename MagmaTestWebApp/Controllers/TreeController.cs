@@ -17,14 +17,19 @@ namespace MagmaTestWebApp.Controllers
             _dataService = dataService;
         }
 
-        // 1. Эндпоинт запроса полного дерева
+        /// <summary>
+        /// Возвращает полное дерево.
+        /// </summary>
         [HttpGet]
         public ActionResult<IEnumerable<TreeItemViewModel>> GetFullTree()
         {
             return Ok(_dataService.Tree);
         }
 
-        // 2. Эндпоинт запроса всех дочерних элементов (включая нижележащие) для заданного узла
+        /// <summary>
+        /// Возвращает всех потомков, включая вложенные, для указанного узла по handle.
+        /// </summary>
+        /// <param name="handle">Идентификатор узла</param>
         [HttpGet("{handle}/descendants")]
         public ActionResult<IEnumerable<TreeItemViewModel>> GetDescendants(string handle)
         {
@@ -45,7 +50,10 @@ namespace MagmaTestWebApp.Controllers
             return Ok(descendants);
         }
 
-        // 3. Эндпоинт запроса дочерних элементов первого уровня для заданного узла
+        /// <summary>
+        /// Возвращает дочерние элементы 1 уровня для указанного узла по handle.
+        /// </summary>
+        /// <param name="handle">Идентификатор узла</param>
         [HttpGet("{handle}/children")]
         public ActionResult<IEnumerable<TreeItemViewModel>> GetFirstLevelChildren(string handle)
         {
@@ -55,7 +63,6 @@ namespace MagmaTestWebApp.Controllers
             }
 
             var node = FindNodeByHandle(_dataService.Tree, handle);
-            // var node2 = _dataService.Tree.Where(t => t.Handle == handle).FirstOrDefault(); - TOOD: ../
 
             if (node == null)
             {
@@ -65,7 +72,11 @@ namespace MagmaTestWebApp.Controllers
             return Ok(node.Children ?? new List<TreeItemViewModel>());
         }
 
-        // 4. Эндпоинт для поиска папки по названию
+        /// <summary>
+        /// Выполняет поиск узлов по описанию с заданным режимом сравнения.
+        /// </summary>
+        /// <param name="description">Описание для поиска</param>
+        /// <param name="searchMode">Режим поиска: substring (подстрока) или exact (точное совпадение) </param>
         [HttpGet("search")]
         public ActionResult<IEnumerable<TreeItemViewModel>> SearchFoldersByName([FromQuery] string description, [FromQuery] string searchMode)
         {
@@ -100,7 +111,9 @@ namespace MagmaTestWebApp.Controllers
             return Ok(filteredNodes);
         }
 
-        // 5. Эндпоинт, выдающий плоский список всех папок
+        /// <summary>
+        /// Возвращает дерево в виде плоского списка всех узлов.
+        /// </summary>
         [HttpGet("flat")]
         public ActionResult<IEnumerable<TreeItemViewModel>> GetFlatTree()
         {

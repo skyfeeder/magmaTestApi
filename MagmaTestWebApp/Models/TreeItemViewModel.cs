@@ -7,7 +7,7 @@ namespace MagmaTestWebApp.Models
         public List<TreeItemViewModel>? Children { get; set; }
         public string? ObjectType { get; set; }
         public string? Description { get; set; }
-        public string? GUID { get; set; }
+        public Guid? Guid { get; set; }
         public string? Handle { get; set; }
         public int IconId { get; set; }
     }

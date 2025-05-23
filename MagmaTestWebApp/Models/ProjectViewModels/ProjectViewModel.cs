@@ -22,7 +22,7 @@ namespace MagmaTestWebApp.Models
         public int LockType { get; set; }
         public string? ObjectType { get; set; }
         public string? Description { get; set; }
-        public string? GUID { get; set; } // С guid не работает, только string
+        public Guid? Guid { get; set; }
         public string? Handle { get; set; }
         public int IconId { get; set; }
     }

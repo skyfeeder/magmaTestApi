@@ -164,7 +164,7 @@ namespace MagmaTestWebApp.Controllers
                 var clone = new TreeItemViewModel
                 {
                     Description = node.Description,
-                    GUID = node.GUID,
+                    Guid = node.Guid,
                     Handle = node.Handle,
                     IconId = node.IconId,
                     ObjectType = node.ObjectType,

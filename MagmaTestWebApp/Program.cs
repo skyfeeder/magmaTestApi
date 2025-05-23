@@ -1,4 +1,5 @@
 using MagmaTestWebApp.Services;
+using Microsoft.AspNetCore.HttpsPolicy;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,11 @@ builder.Services.AddSingleton<DataService>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.Configure<HttpsRedirectionOptions>(options =>
+{
+    options.HttpsPort = 7156;
+});
+
 
 var app = builder.Build();
 
@@ -29,9 +35,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
 app.UseRouting();
-app.UseAuthorization();
 app.MapControllers();
 
 using (var scope = app.Services.CreateScope())

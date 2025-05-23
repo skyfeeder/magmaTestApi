@@ -118,8 +118,10 @@ namespace MagmaTestWebApp.Controllers
             return Ok(filteredProjects);
         }
 
-        // 6. Эндпоинт с параметром roleName для фильтрации по роли
-        // TODO: Вынести роли в enum (Enum.TryParse)
+        /// <summary>
+        /// Возвращает проекты, в которых у пользователя указана определённая роль.
+        /// </summary>
+        /// <param name="roleName">Название роли (member, editor, admin, organizationadmin).</param>
         [HttpGet("filterByRole")]
         public ActionResult<IEnumerable<ProjectViewModel>> FilterProjectsByRole([FromQuery] string? roleName)
         {
@@ -166,7 +168,9 @@ namespace MagmaTestWebApp.Controllers
             return Ok(customers);
         }
 
-        // 8. Эндпоинт, отдающий все архивные проекты
+        /// <summary>
+        /// Возвращает проекты со статусом "Архивный".
+        /// </summary>
         [HttpGet("archived")]
         public ActionResult<IEnumerable<ProjectViewModel>> GetArchivedProjects()
         {

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using MagmaTestWebApp.Models;
 using MagmaTestWebApp.Services;
+using MagmaTestWebApp.Enums;
 
 namespace MagmaTestWebApp.Controllers
 {
@@ -12,6 +13,8 @@ namespace MagmaTestWebApp.Controllers
     public class ProjectsController : ControllerBase
     {
         private readonly DataService _dataService;
+
+        private const string HandlePrefix = "TH";
 
         public ProjectsController(DataService dataService)
         {
@@ -34,9 +37,9 @@ namespace MagmaTestWebApp.Controllers
         [HttpGet("{handle}")]
         public ActionResult<ProjectViewModel> GetProjectByHandle(string handle)
         {
-            if (string.IsNullOrEmpty(handle) || !handle.StartsWith("TH"))
+            if (!IsValidHandle(handle))
             {
-                return BadRequest("Некорректный формат Handle. Handle должен начинаться с 'TH'.");
+                return BadRequest($"Некорректный формат Handle. Handle должен начинаться с '{HandlePrefix}'.");
             }
 
             var project = _dataService.Projects.FirstOrDefault(p => p.Handle == handle);
@@ -56,9 +59,9 @@ namespace MagmaTestWebApp.Controllers
         [HttpDelete("{handle}")]
         public IActionResult DeleteProject(string handle)
         {
-            if (string.IsNullOrEmpty(handle) || !handle.StartsWith("TH"))
+            if (!IsValidHandle(handle))
             {
-                return BadRequest("Некорректный формат Handle. Handle должен начинаться с 'TH'.");
+                return BadRequest($"Некорректный формат Handle. Handle должен начинаться с '{HandlePrefix}'.");
             }
 
             var project = _dataService.Projects.FirstOrDefault(p => p.Handle == handle);
@@ -108,7 +111,6 @@ namespace MagmaTestWebApp.Controllers
                 return Ok(_dataService.Projects);
             }
 
-            // Мб проверить регуляркой var pattern = $@"\b\w*{Regex.Escape(description)}\w*\b";
             var filteredProjects = _dataService.Projects
                 .Where(p => p.Description != null && p.Description.Contains(description, StringComparison.OrdinalIgnoreCase))
                 .ToList();
@@ -126,28 +128,28 @@ namespace MagmaTestWebApp.Controllers
                 return BadRequest("Параметр roleName обязателен.");
             }
 
-            var roleNameLower = roleName.ToLower();
+            if (!Enum.TryParse<UserRoleType>(roleName, true, out var parsedRole))
+            {
+                return BadRequest($"Некорректное значение для roleName: {roleName}. Допустимые значения: member, editor, admin, organizationadmin.");
+            }
 
             var filteredProjects = _dataService.Projects.Where(p =>
             {
                 if (p.UserRole == null) return false;
 
-                switch (roleNameLower)
+                return parsedRole switch
                 {
-                    case "member": return p.UserRole.Member?.HasRole == true;
-                    case "editor": return p.UserRole.Editor?.HasRole == true;
-                    case "admin": return p.UserRole.Admin?.HasRole == true;
-                    case "organizationadmin": return p.UserRole.OrganizationAdmin?.HasRole == true;
-                    default: return false;
-                }
+                    UserRoleType.Member => p.UserRole.Member?.HasRole == true,
+                    UserRoleType.Editor => p.UserRole.Editor?.HasRole == true,
+                    UserRoleType.Admin => p.UserRole.Admin?.HasRole == true,
+                    UserRoleType.OrganizationAdmin => p.UserRole.OrganizationAdmin?.HasRole == true,
+                    _ => false
+                };
             }).ToList();
-
-            if (!filteredProjects.Any() && !("member,editor,admin,organizationadmin").Contains(roleNameLower)){
-                 return BadRequest($"Некорректное значение для roleName: {roleName}. Допустимые значения: member, editor, admin, organizationadmin.");
-            }
 
             return Ok(filteredProjects);
         }
+
 
         /// <summary>
         /// Возвращает список заказчиков с их Handle.
@@ -178,9 +180,9 @@ namespace MagmaTestWebApp.Controllers
         [HttpPut("{handle}/maximumSize")]
         public IActionResult UpdateProjectMaximumSize(string handle, [FromBody] long maximumSize)
         {
-             if (string.IsNullOrEmpty(handle) || !handle.StartsWith("TH"))
+            if (!IsValidHandle(handle))
             {
-                return BadRequest("Некорректный формат Handle. Handle должен начинаться с 'TH'.");
+                return BadRequest($"Некорректный формат Handle. Handle должен начинаться с '{HandlePrefix}'.");
             }
 
             var project = _dataService.Projects.FirstOrDefault(p => p.Handle == handle);
@@ -199,5 +201,10 @@ namespace MagmaTestWebApp.Controllers
 
             return Ok(project);
         }
+
+        private static bool IsValidHandle(string handle)
+        {
+            return !string.IsNullOrEmpty(handle) && handle.StartsWith(HandlePrefix);
+        }
     }
-} 
+}

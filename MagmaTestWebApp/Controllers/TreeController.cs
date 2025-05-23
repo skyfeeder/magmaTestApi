@@ -161,7 +161,17 @@ namespace MagmaTestWebApp.Controllers
         {
             foreach (var node in nodes)
             {
-                flatList.Add(node);
+                var clone = new TreeItemViewModel
+                {
+                    Description = node.Description,
+                    GUID = node.GUID,
+                    Handle = node.Handle,
+                    IconId = node.IconId,
+                    ObjectType = node.ObjectType,
+                    Children = null
+                };
+                flatList.Add(clone);
+
                 if (node.Children != null)
                 {
                     CollectAllNodes(node.Children, flatList);

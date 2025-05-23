@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
 using MagmaTestWebApp.Models;
@@ -16,9 +15,7 @@ namespace MagmaTestWebApp.Services
 
         public DataService(IHostEnvironment env)
         {
-            _dataFolderPath = Path.Combine(env.ContentRootPath, "Data");
-            // _dataFolderPath = Directory.GetCurrentDirectory();
-            // _dataFolderPath = AppDomain.CurrentDomain.BaseDirectory; TODO: fixit
+            _dataFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "Data");
             Projects = new List<ProjectViewModel>();
             Tree = new List<TreeItemViewModel>();
             Users = new List<UserViewModel>();
